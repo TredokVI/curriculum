@@ -15,8 +15,8 @@ function Dws() {
       <h2> This is Dog Walking Simulator! </h2>
       <Unity unityContext={unityContext} className="unity-web" />
       <div className="instructions">
+        <h3> &#8595; Instructions &#8595; </h3>
         <h4> The Objective of the game is to take some dogs on a walk!</h4>
-        <h3> Instrucciones </h3>
 
         <ul>
           <li> RMB: Click on screen to give the character a direction to follow </li>
