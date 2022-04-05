@@ -9,13 +9,20 @@ const unityContext = new UnityContext({
 });
 
 function Dws() {
-  return <Unity unityContext={unityContext}
-          style={{
-           height: "720px",
-           width: "1280px",
-           border: "2px solid black",
-           background: "grey",
-         }}/>;
+  return(
+    <div>
+      <h2> This is Dog Walking Simulator! </h2>
+      <Unity
+        unityContext={unityContext}
+        style={{
+          height: "720px",
+          width: "1280px",
+          border: "2px solid black",
+          background: "grey",
+        }}/>
+    </div>
+
+  )
 }
 
 export default Dws;

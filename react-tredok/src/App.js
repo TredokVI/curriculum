@@ -1,21 +1,22 @@
-import './components/styling/App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Supaheader from './components/header/supa-header.js'
+import LandingPage from './pages/landing.js'
 import Dws from './dws/dws.js';
 
 
 function App() {
   return (
-    <div className="App">
-      <Supaheader />
-
-      <h2> This is Dog Walking Simulator! </h2>
-      <Dws className="dws"/>
-
-      <footer>
-
-      </footer>
-    </div>
+      <div>
+        <Supaheader />
+        <main>
+          <Routes>
+            <Route path="/" exact element={<LandingPage />} />
+            <Route path="/dws" element={<Dws className="dws"/>} />
+          </Routes>
+        </main>
+      </div>
   );
 }
 
