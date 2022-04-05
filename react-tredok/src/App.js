@@ -1,14 +1,15 @@
-import './App.css';
+import './components/styling/App.css';
+
+import Supaheader from './components/header/supa-header.js'
 import Dws from './dws/dws.js';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p> Welcome to Dog Walking Simulator! </p>
-      </header>
+      <Supaheader />
 
+      <h2> This is Dog Walking Simulator! </h2>
       <Dws className="dws"/>
 
       <footer>

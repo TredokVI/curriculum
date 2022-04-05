@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 50px;
+  margin: 0px 0px 50px 0px;
+  background-color: #282C34;
+
+}
+
+h1{
+  font: Rubik;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-icon{
+  width: 100px;
+  height: 100px;
+  padding: 0px 20px 0px 20px;
+  margin: 0px 0px 0px 0px;
+}
