@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
+import './components/styling/App.css'
 
 import Supaheader from './components/header/supa-header.js'
 import LandingPage from './pages/landing.js'
@@ -8,7 +9,7 @@ import Dws from './dws/dws.js';
 
 function App() {
   return (
-      <div>
+      <div >
         <Supaheader />
         <main>
           <Routes>

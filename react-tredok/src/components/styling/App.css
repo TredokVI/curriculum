@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import 'global.scss';
+
+head{
+  background-color: green!important;
+}
+body{
+  background-color:  #262932;
+}
 
 .App {
-  text-align: center;
+  background-color: green!important;
 
 }
 

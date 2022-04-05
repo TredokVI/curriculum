@@ -1,0 +1,44 @@
+@import 'global.scss';
+
+.main-dws{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rubik';
+  h2{
+    color: white;
+  }
+}
+
+.unity-web{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: "2px solid black";
+  background: "grey";
+}
+
+.instructions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  h3{
+    margin: 20px 0px 10px 0px;
+  }
+  ul{
+    margin: 0px 0px 0px 0px;
+  }
+
+  p{
+    display: inline;
+  }
+  .red{
+    color: red;
+  }
+  .orange{
+    color: orange;
+  }
+
+} // instructions

@@ -5,20 +5,20 @@
   justify-content: space-between;
 
   min-height: 50px;
-  margin: 0px 0px 50px 0px;
-  background-color: #282C34;
+  margin: 0px 0px 30px 0px;
+  /* background-color: #282C34; */
+  background-color: #4B4961;
   color: white;
 }
 
 h1{
   font: Rubik;
   font-size: calc(10px + 2vmin);
-
 }
 
 .header-icon{
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   padding: 0px 20px 0px 20px;
   margin: 0px 0px 0px 0px;
 }
