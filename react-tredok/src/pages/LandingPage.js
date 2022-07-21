@@ -16,6 +16,7 @@ const Landing = (props) => {
         <div className="home-navbar">
           <div className="home-left-side">
             <img
+              alt="LowPoly Fish"
               src={require('../assets/lowPolyFish.png')}
               className="home-image"
             />
@@ -40,6 +41,7 @@ const Landing = (props) => {
           <div data-type="MobileMenu" className="home-mobile-menu">
             <div className="home-container1">
               <img
+                alt="Weathly"
                 src={'../assets/weathly.jpg'}
                 className="home-image1"
               />

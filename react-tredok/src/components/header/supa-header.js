@@ -15,7 +15,7 @@ function Supaheader(){
 
       <div>
         <NavLink to='/dws'>
-          <img className="header-icon" src={require('../../assets/chihuahua.png')} alt="LowPoly Fish" />
+          <img className="header-icon" src={require('../../assets/chihuahua.png')} alt="Doggo" />
         </NavLink>
       </div>
     </header>
